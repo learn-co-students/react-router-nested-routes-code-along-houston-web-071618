@@ -52,7 +52,7 @@ Notice what is happening on the second `Route`. When rendering a component
 through a `Route`, the component receives props _from_ the `Route` automatically
 that contain information on the route, including the URL path that triggered the
 `Route` to render. This is happening on _both_ of these `Route`s, but in the
-first `Route`, it is auotmatically being passed down. The issue here is that, in
+first `Route`, it is automatically being passed down. The issue here is that, in
 addition to Router props, we also want to pass in the data we have in state.
 
 The easiest way to handle this is to use the `render`. The `render` attribute of
@@ -84,7 +84,7 @@ export default MoviesPage
 ```
 
 At the moment, our __MoviesPage__ component is purely presentational. It is
-simply middle component betwene __App__ and __MoviesList__, but we will come
+simply middle component between __App__ and __MoviesList__, but we will come
 back to this component in a moment. Right now, if we try to run our React app,
 we get an error because __MovieList__ is not defined yet!
 
